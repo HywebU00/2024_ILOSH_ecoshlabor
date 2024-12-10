@@ -4263,6 +4263,8 @@ img {
     transform: translateY(-50%);
   }
   .header .navigation .reserve a {
+    font-size: 15px;
+    line-height: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4270,7 +4272,7 @@ img {
     background: #DF356E;
     color: #fff;
     width: 200px;
-    height: 36px;
+    height: 32px;
     transition: all 0.3s linear;
   }
   @media screen and (max-width: 1200px) {
@@ -8400,7 +8402,7 @@ img {
     -webkit-backdrop-filter: blur(3px);
             backdrop-filter: blur(3px);
     background-color: rgba(0, 0, 0, 0.25);
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     display: flex;
     justify-content: center;
     gap: 60px;
