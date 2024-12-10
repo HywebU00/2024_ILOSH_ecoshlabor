@@ -173,6 +173,25 @@ body {
       }
     }
   }
+
+  .vr360 {
+
+    p {
+      text-align: center;
+      display: block;
+      width: 100% !important;
+      font-size: 16px !important;
+    }
+
+    .vr {
+
+      iframe {
+        width: 100%;
+        height: 640px;
+        border-radius: 10px;
+      }
+    }
+  }
 }
 
 .hidden {

@@ -1,0 +1,75 @@
+#: locale=zh
+
+## Media
+
+### Title
+panorama_41428E4D_4F54_98E6_41AA_CF2E518B7819.label = 點位-01
+panorama_463856FD_4B47_B8C0_41A0_AB46F4431D21.label = 點位-02
+panorama_46222751_4B47_79C0_41CB_9F06DB6B74A5.label = 點位-03
+panorama_462F06BB_4B44_BB40_41D1_1C28D77CFC56.label = 點位-04
+panorama_462E089A_4B44_F740_41D0_841D99950E3D.label = 點位-05
+panorama_462D1DE5_4B44_A8C0_41C7_071C9045BD9E.label = 點位-06
+panorama_461A7B64_4B45_69C0_41C9_848DFBBE6AE3.label = 點位-07
+panorama_46203CBD_4B45_AF40_41C8_E0256C56AD12.label = 點位-08
+panorama_47A9C551_4B44_B9C0_418B_C75862DFBA0B.label = 點位-09
+panorama_4634DD71_4B4B_69C3_41C0_69ACD2BD4EE7.label = 點位-10
+panorama_4625EFF3_4B4B_A8C0_41CB_93C2458B575E.label = 點位-11
+panorama_46208EE2_4B4B_E8C0_41CC_F61EE222D8F7.label = 點位-12
+panorama_4625627A_4B4B_5BC0_41C7_BF13E49352A5.label = 點位-13
+panorama_41BF8077_4F55_A8A1_41CB_9609FC60D0C7.label = 點位-14
+panorama_463657DD_4B4D_58C0_41D0_FB41DA38A892.label = 點位-15
+panorama_46EC4C21_4B4D_EF40_41BB_12268C997A54.label = 點位-16
+panorama_46324FAE_4B4D_A940_41C2_CAA970C6294C.label = 點位-17
+panorama_46CBD4A8_4B4D_7F40_41BD_58A6705C7280.label = 點位-18
+panorama_463E3724_4B4C_B940_41D2_BB598350CDFD.label = 點位-19
+panorama_4631EDCB_4B4C_E8C0_41D2_65F810DB8406.label = 點位-20
+panorama_463A9F5D_4B4C_A9C0_41A0_F3C8631B5428.label = 點位-21
+panorama_46CA275B_4B4B_59C0_41B2_FD0BA2576E0E.label = 點位-22
+panorama_463B19CB_4B4B_E8C0_41C9_CDE1396E78E9.label = 點位-23
+panorama_46CB6D20_4B4B_A940_41A0_81BE439ECB3C.label = 點位-24
+panorama_463BFEA6_4B4B_6B40_41BB_4486C87CEAF7.label = 點位-25
+panorama_46370186_4B44_B940_41CD_B88509808798.label = 點位-26
+panorama_463E102D_4B44_F740_41D1_977D40357A77.label = 點位-27
+panorama_418D003E_4F55_E8A3_41CB_47844DA6D217.label = 點位-28
+panorama_419BD6BA_4F55_A9A2_4186_A183164E184A.label = 點位-29
+panorama_419BAB59_4F54_98E1_41C7_15C47C4F8ED9.label = 點位-30
+panorama_5B3AF67D_4F6C_A8A6_41CE_7AC87D1F473E.label = 點位-31
+panorama_5B277EE1_4F54_99A1_41D3_C84DD23F18D1.label = 點位-32
+panorama_46FBADC1_4B44_A8C0_41C6_C3035BACB8F6.label = 點位-33
+panorama_5879BB6D_4F54_78A1_41D2_A86988F5CEB0.label = 點位-34
+panorama_4635019E_4B47_B940_41D2_CFCC139C2996.label = 點位-35
+panorama_46CEC317_4B47_F940_41C2_0CFF0DA6B9F2.label = 點位-36
+panorama_463472D5_4B47_B8C0_41CA_97DD69777628.label = 點位-37
+
+## Skin
+
+### Image
+Image_8ACA0889_E3CB_31AF_41A4_406DD4EF2806_mobile.url = skin/Image_8ACA0889_E3CB_31AF_41A4_406DD4EF2806_mobile_zh.png
+Image_8ACA0889_E3CB_31AF_41A4_406DD4EF2806.url = skin/Image_8ACA0889_E3CB_31AF_41A4_406DD4EF2806_zh.png
+
+### Label
+Label_3A2F455B_2A4C_E5AC_41C3_D534952123FF.text = {{title}}
+Label_3A2F455B_2A4C_E5AC_41C3_D534952123FF_mobile.text = {{title}}
+
+### Multiline Text
+HTMLText_2F8A4686_0D4F_6B71_4183_10C1696E2923.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.735978112175102vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.74vh;font-family:'Adobe 繁黑體 Std B';">13F平面圖</SPAN></SPAN></DIV></div>
+HTMLText_2F8A4686_0D4F_6B71_4183_10C1696E2923_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.735978112175102vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.74vh;font-family:'Adobe 繁黑體 Std B';">13F平面圖</SPAN></SPAN></DIV></div>
+HTMLText_3918BF37_0C06_E393_41A1_17CF0ADBAB12_mobile.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:5.14vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.77vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:3.6935704514363876vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.69vh;font-family:'Adobe 繁黑體 Std B';">場景選單</SPAN></SPAN></DIV></div>
+HTMLText_8AF5188D_E3CB_31A7_41D6_CEBA6A9B70EE.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.872777017783858vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.87vmin;font-family:'Adobe 繁黑體 Std B';">華夏瑰寶青銅器藏品</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.19vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:33.02vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1887824897400834vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.19vmin;font-family:'Adobe 黑体 Std R';">西周早期-獸面龍紋高耳鼎</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.19vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:23.02vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1887824897400834vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.19vmin;font-family:'Adobe 黑体 Std R';">鼎，是古代的一種炊器。青銅鼎是中國青銅器最重要的器形之一。經過夏商兩代的發展，青銅鼎的使用到周代達到鼎盛。除了作為食器，也被用作盛放食物或佐料的盛器、祭祀神明和祖先的禮器、陪葬的明器，也是體現身份尊卑、規格高下的重要器具。</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.19vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:23.02vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1887824897400834vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.19vmin;font-family:'Adobe 黑体 Std R';">館藏的獸面龍紋高耳大鼎從形制及紋飾看應為西周早期之物。鼎呈平沿方唇，直耳碩大，蹄足粗壯，耳外側飾龍紋，口下飾六條龍紋，呈獸面狀，扉棱下飾牛首，三足作獸面狀，腹部飾獸首形紃。形態魁偉，造型別致，是西周時期的青銅器精品。</SPAN></SPAN></DIV></div>
+HTMLText_8AF5188D_E3CB_31A7_41D6_CEBA6A9B70EE_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.872777017783858vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.87vmin;font-family:'Adobe 繁黑體 Std B';">華夏瑰寶青銅器藏品</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.19vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:33.02vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1887824897400834vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.19vmin;font-family:'Adobe 黑体 Std R';">西周早期-獸面龍紋高耳鼎</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.19vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:23.02vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1887824897400834vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.19vmin;font-family:'Adobe 黑体 Std R';">鼎，是古代的一種炊器。青銅鼎是中國青銅器最重要的器形之一。經過夏商兩代的發展，青銅鼎的使用到周代達到鼎盛。除了作為食器，也被用作盛放食物或佐料的盛器、祭祀神明和祖先的禮器、陪葬的明器，也是體現身份尊卑、規格高下的重要器具。</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.19vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:23.02vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1887824897400834vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.19vmin;font-family:'Adobe 黑体 Std R';">館藏的獸面龍紋高耳大鼎從形制及紋飾看應為西周早期之物。鼎呈平沿方唇，直耳碩大，蹄足粗壯，耳外側飾龍紋，口下飾六條龍紋，呈獸面狀，扉棱下飾牛首，三足作獸面狀，腹部飾獸首形紃。形態魁偉，造型別致，是西周時期的青銅器精品。</SPAN></SPAN></DIV></div>
+
+### Tooltip
+IconButton_2738E22B_39D7_96B5_41C6_6F3F516B98ED.toolTip = 場景選單
+IconButton_C14E1C82_D843_9734_41E8_1C12D0EAC684.toolTip = 場景選單
+IconButton_C14E1C82_D843_9734_41E8_1C12D0EAC684_mobile.toolTip = 場景選單
+IconButton_2738E22B_39D7_96B5_41C6_6F3F516B98ED_mobile.toolTip = 場景選單
+IconButton_5F086D80_7785_4463_41DB_6D6113E15D2E_mobile.toolTip = 關閉
+IconButton_5F086D80_7785_4463_41DB_6D6113E15D2E.toolTip = 關閉
+IconButton_CC54BA19_D7EF_56C2_41D7_ACDFFF1698FB_mobile.toolTip = 關閉
+
+## Tour
+
+### Description
+
+### Title
+tour.name = 勞安加衛體驗館 Labor Safety and Health Experience Center
