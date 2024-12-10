@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="cover-background" width="1920px" height="1000px"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script>
+      var canvas = document.getElementById('cover-background'); // in your HTML this element appears as <canvas id="mycanvas"></canvas>
+      var canvasContext = canvas.getContext('2d');
+      var params = {
+        renderer: 'canvas',
+        loop: true,
+        path: 'data.json',
+        autoplay: true,
+        rendererSettings: {
+          context: canvasContext, // the canvas context
+          preserveAspectRatio: 'xMidYMid meet',
+          filterSize: {
+            width: '100%',
+            height: '100%',
+            x: '-50%',
+            y: '-50%',
+          },
+          clearCanvas: true,
+          progressiveLoad: false, // Boolean, only svg renderer, loads dom elements when needed. Might speed up initialization for large number of elements.
+          hideOnTransparent: true, //Boolean, only svg renderer, hides elements when opacity reaches 0 (defaults to true)
+        },
+      };
+
+      var anim;
+      anim = lottie.loadAnimation(params);
+    </script>
+  </body>
+</html>

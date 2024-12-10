@@ -1,0 +1,33 @@
+.breadcrumb {
+  padding: 0.1em 0em 0.1em;
+  font-size: 0.813em;
+  margin: 0px auto 5px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  opacity: 0.8;
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+
+    li {
+      margin: 0px 0.1em 0.1em 0px;
+
+      & + li {
+        &:before {
+          @extend %slash;
+        }
+      }
+    }
+  }
+
+  a {
+    color: #fff;
+
+    &:focus-visible {
+      outline: red 2px solid;
+    }
+  }
+}

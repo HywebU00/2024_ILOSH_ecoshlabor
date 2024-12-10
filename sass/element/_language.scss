@@ -1,0 +1,117 @@
+.language {
+  z-index: 9999;
+  position: relative;
+  font-size: 1rem;
+
+  button,
+  & > a {
+    box-sizing: border-box;
+    background: transparent;
+    color: $colorPrimary;
+    padding: 0.2em 1em;
+    position: relative;
+    transition: 0.3s ease-out;
+    margin: 0;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 25px;
+      background: url('../images/icon/icon_language.svg') center no-repeat;
+      background-size: contain;
+    }
+
+    span {
+      pointer-events: none;
+
+      @media screen and (max-width: 1200px) {
+        display: none;
+      }
+    }
+  }
+
+  ul {
+    background: #FFF;
+    padding: 1em 1.5em;
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    @include liReset;
+
+    li {
+      flex: 1;
+      box-sizing: border-box;
+      margin: 0;
+
+      a {
+        display: block;
+        padding: 0.5em 0.5em 0.5em 1em;
+        transition: 0.3s ease-out;
+        color: $colorPrimary;
+
+        &:hover,
+        &:focus-visible {
+          color: #fff;
+          background: $colorPrimary;
+        }
+      }
+    }
+  }
+}
+
+@include screen('mobileMin') {
+  .language.typeB {
+    width: auto;
+
+    & > button,
+    & > a {
+      text-indent: -9999px;
+      color: transparent;
+      width: 50px;
+      aspect-ratio: 1/1;
+      position: relative;
+      background: none;
+      padding: 0;
+      border: none;
+
+      &::before {
+        content: '';
+        width: 100%;
+        height: auto;
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        aspect-ratio: 1/1;
+        display: block;
+        mask: url('../images/icon/icon_global2.svg') center no-repeat;
+        mask-size: 40%;
+        background: #fff;
+        pointer-events: none;
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+
+    ul {
+      width: 100px;
+      left: 50%;
+      text-align: center;
+      transform: translateX(-50%);
+
+      li a {
+        padding: 5px;
+      }
+    }
+  }
+}
