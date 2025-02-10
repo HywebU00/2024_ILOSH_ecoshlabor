@@ -10136,6 +10136,12 @@ img {
   }
   .innerPage .topTitleBox .title {
     position: relative;
+    font-size: 32px;
+  }
+  @media screen and (max-width: 767px) {
+    .innerPage .topTitleBox .title {
+      font-size: 26px;
+    }
   }
   .innerPage .topTitleBox .title::after {
     content: "";

@@ -1382,6 +1382,11 @@ h2.title {
 
     .title {
       position: relative;
+      font-size: 32px;
+
+      @include screen('mobile') {
+        font-size: 26px;
+      }
 
       &::after {
         content: '';
