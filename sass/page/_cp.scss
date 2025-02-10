@@ -294,7 +294,6 @@ h2.title {
       margin-bottom: 40px;
       font-style: normal;
       font-weight: 500;
-      font-size: 14px;
       line-height: 28px;
       width: 70%;
 
@@ -1350,6 +1349,72 @@ h2.title {
           }
         }
       }
+    }
+  }
+
+  .topTitleBox {
+    max-width: 1000px;
+    margin: 0 auto 30px;
+
+    .top {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .tag {
+        width: fit-content;
+        width: 100px;
+        text-align: center;
+        height: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        color: white;
+        overflow-wrap: normal;
+        border-radius: 5px;
+        background: #F3AD25;
+        margin-bottom: 0;
+
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    .title {
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        opacity: 0.3;
+        height: 140px;
+        width: 50vw;
+        z-index: -111111;
+        background-image: url('../images/mp/cover_arrow.png');
+        background-size: contain;
+        background-repeat: repeat-x;
+        transform: translateY(-60%) translateX(60%);
+        background-position: left center;
+      }
+    }
+  }
+
+  .contentCpBox {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .pic {
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    p {
+      width: 100%;
+      max-width: none;
     }
   }
 }

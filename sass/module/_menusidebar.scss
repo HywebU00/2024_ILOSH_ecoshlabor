@@ -87,6 +87,10 @@
             min-height: 2em;
             line-height: 2em;
             border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+            &:focus-visible {
+              outline: #C2FBFF 2px solid;
+            }
           }
 
           &.hasChild {
@@ -238,6 +242,10 @@
       button {
         width: 100%;
         border: 0em;
+
+        &:focus-visible {
+          outline: #C2FBFF 2px solid;
+        }
       }
 
       ul {
@@ -280,10 +288,9 @@
     background: none;
     border: none;
 
-    &:hover,
     &:focus-visible {
       // box-shadow: none;
-      outline: #0094e0 2px solid;
+      outline: #C2FBFF 2px solid;
     }
 
     &:before {
@@ -297,6 +304,18 @@
       transform: rotate(45deg);
       border-right: none;
       border-top: none;
+    }
+  }
+
+  .reserve {
+    a {
+      color: #fff;
+      display: block;
+      padding: 20px;
+
+      &:focus-visible {
+        outline: #C2FBFF 2px solid;
+      }
     }
   }
 }
