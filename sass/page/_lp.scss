@@ -33,6 +33,16 @@
     }
   }
 
+  .course {
+    a {
+      background: #008540;
+
+      &:hover {
+        background: darken(#008540, 10);
+      }
+    }
+  }
+
   .item {
     width: calc(50% - 10px);
 

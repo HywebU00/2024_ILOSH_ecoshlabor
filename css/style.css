@@ -7616,6 +7616,7 @@ img {
     flex: none;
     flex-basis: 100%;
     max-width: 100%;
+    padding-bottom: 5px;
   }
   .innerPage .leftBlock {
     flex: none;
@@ -8642,6 +8643,11 @@ img {
   }
   .indexPage .newsBox .container {
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .indexPage .newsBox .container .outer {
+    display: flex;
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -8676,20 +8682,31 @@ img {
     -webkit-box-orient: vertical;
   }
   .indexPage .newsBox .announcementBox,
-  .indexPage .newsBox .mediaBox {
-    width: calc((100% - 50px) / 2);
+  .indexPage .newsBox .mediaBox,
+  .indexPage .newsBox .courseBox {
+    flex: 1 1 calc((100% - 50px) / 2);
+  }
+  @media screen and (max-width: 991px) {
+    .indexPage .newsBox .announcementBox,
+    .indexPage .newsBox .mediaBox,
+    .indexPage .newsBox .courseBox {
+      flex: 1 1 100%;
+    }
   }
   .indexPage .newsBox .announcementBox .class,
-  .indexPage .newsBox .mediaBox .class {
+  .indexPage .newsBox .mediaBox .class,
+  .indexPage .newsBox .courseBox .class {
     background-color: #F3AD25;
   }
   .indexPage .newsBox .announcementBox .content,
-  .indexPage .newsBox .mediaBox .content {
+  .indexPage .newsBox .mediaBox .content,
+  .indexPage .newsBox .courseBox .content {
     border-color: #F3AD25;
     background-image: url("../images/mp/arrows_eggyellow_small.png");
   }
   .indexPage .newsBox .announcementBox .content a,
-  .indexPage .newsBox .mediaBox .content a {
+  .indexPage .newsBox .mediaBox .content a,
+  .indexPage .newsBox .courseBox .content a {
     background: #f7f7f7;
     border-radius: 10px;
     padding: 20px;
@@ -8698,33 +8715,48 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
+  }
+  @media screen and (max-width: 767px) {
+    .indexPage .newsBox .announcementBox .content a,
+    .indexPage .newsBox .mediaBox .content a,
+    .indexPage .newsBox .courseBox .content a {
+      flex-direction: column;
+    }
   }
   .indexPage .newsBox .announcementBox .content a:hover,
-  .indexPage .newsBox .mediaBox .content a:hover {
+  .indexPage .newsBox .mediaBox .content a:hover,
+  .indexPage .newsBox .courseBox .content a:hover {
     background: #F3AD25;
   }
   .indexPage .newsBox .announcementBox .content a:hover time,
   .indexPage .newsBox .announcementBox .content a:hover .title,
   .indexPage .newsBox .mediaBox .content a:hover time,
-  .indexPage .newsBox .mediaBox .content a:hover .title {
+  .indexPage .newsBox .mediaBox .content a:hover .title,
+  .indexPage .newsBox .courseBox .content a:hover time,
+  .indexPage .newsBox .courseBox .content a:hover .title {
     color: #fff;
   }
   .indexPage .newsBox .announcementBox .content a:hover .pic img,
-  .indexPage .newsBox .mediaBox .content a:hover .pic img {
+  .indexPage .newsBox .mediaBox .content a:hover .pic img,
+  .indexPage .newsBox .courseBox .content a:hover .pic img {
     transform: scale(1.5);
   }
   .indexPage .newsBox .announcementBox .content .info,
-  .indexPage .newsBox .mediaBox .content .info {
-    width: calc(75% - 20px);
+  .indexPage .newsBox .mediaBox .content .info,
+  .indexPage .newsBox .courseBox .content .info {
+    flex: 1 1 calc(75% - 20px);
   }
   .indexPage .newsBox .announcementBox .content time,
-  .indexPage .newsBox .mediaBox .content time {
+  .indexPage .newsBox .mediaBox .content time,
+  .indexPage .newsBox .courseBox .content time {
     display: block;
     margin-bottom: 10px;
     transition: all 0.3s ease;
   }
   .indexPage .newsBox .announcementBox .content .title,
-  .indexPage .newsBox .mediaBox .content .title {
+  .indexPage .newsBox .mediaBox .content .title,
+  .indexPage .newsBox .courseBox .content .title {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -8733,14 +8765,26 @@ img {
     transition: all 0.3s ease;
   }
   .indexPage .newsBox .announcementBox .content .pic,
-  .indexPage .newsBox .mediaBox .content .pic {
+  .indexPage .newsBox .mediaBox .content .pic,
+  .indexPage .newsBox .courseBox .content .pic {
+    max-width: 137px;
+    aspect-ratio: 1;
     width: 25%;
     aspect-ratio: 1;
     border-radius: 10px;
     overflow: hidden;
   }
+  @media screen and (max-width: 767px) {
+    .indexPage .newsBox .announcementBox .content .pic,
+    .indexPage .newsBox .mediaBox .content .pic,
+    .indexPage .newsBox .courseBox .content .pic {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
   .indexPage .newsBox .announcementBox .content .pic img,
-  .indexPage .newsBox .mediaBox .content .pic img {
+  .indexPage .newsBox .mediaBox .content .pic img,
+  .indexPage .newsBox .courseBox .content .pic img {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -8755,6 +8799,16 @@ img {
   }
   .indexPage .newsBox .mediaBox .content a:hover {
     background: #1AC4DB;
+  }
+  .indexPage .newsBox .courseBox .class {
+    background-color: #008540;
+  }
+  .indexPage .newsBox .courseBox .content {
+    border-color: #008540;
+    background-image: url("../images/mp/arrows_egggreen_small.png");
+  }
+  .indexPage .newsBox .courseBox .content a:hover {
+    background: #008540;
   }
   .indexPage .newsBox .more {
     width: 150px;
@@ -8793,12 +8847,14 @@ img {
   }
   .indexPage .themeBox2,
   .indexPage .themeBox {
+    margin-top: 40px;
     display: flex;
   }
   @media screen and (max-width: 767px) {
     .indexPage .themeBox2,
     .indexPage .themeBox {
       flex-direction: column;
+      gap: 30px;
     }
   }
   .indexPage .themeBox2 img,
@@ -8812,10 +8868,22 @@ img {
     width: 40%;
     line-height: 0;
   }
+  @media screen and (max-width: 767px) {
+    .indexPage .themeBox2 .pic,
+    .indexPage .themeBox .pic {
+      width: 100%;
+    }
+  }
   .indexPage .themeBox2 .pic2,
   .indexPage .themeBox .pic2 {
     width: 35%;
     line-height: 0;
+  }
+  @media screen and (max-width: 767px) {
+    .indexPage .themeBox2 .pic2,
+    .indexPage .themeBox .pic2 {
+      width: 100%;
+    }
   }
   .indexPage .themeBox2 .info,
   .indexPage .themeBox .info {
@@ -8824,6 +8892,12 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  @media screen and (max-width: 767px) {
+    .indexPage .themeBox2 .info,
+    .indexPage .themeBox .info {
+      width: 100%;
+    }
   }
   .indexPage .themeBox2 .blockTitle,
   .indexPage .themeBox .blockTitle {
@@ -8880,14 +8954,21 @@ img {
     color: #fff;
     background: #DF356E;
   }
-  .indexPage .themeBox2 {
-    margin-top: 40px;
-  }
   .indexPage .themeBox2 .pic {
     width: 32%;
   }
+  @media screen and (max-width: 767px) {
+    .indexPage .themeBox2 .pic {
+      width: 100%;
+    }
+  }
   .indexPage .themeBox2 .pic2 {
     width: 43%;
+  }
+  @media screen and (max-width: 767px) {
+    .indexPage .themeBox2 .pic2 {
+      width: 100%;
+    }
   }
   .newsListBox {
     display: flex;
@@ -8911,6 +8992,12 @@ img {
   }
   .newsListBox .announcement a:hover {
     background: #d9930c;
+  }
+  .newsListBox .course a {
+    background: #008540;
+  }
+  .newsListBox .course a:hover {
+    background: #005227;
   }
   .newsListBox .item {
     width: calc(50% - 10px);
@@ -10130,6 +10217,18 @@ img {
     border-radius: 5px;
     background: #F3AD25;
     margin-bottom: 0;
+  }
+  .innerPage .topTitleBox .top .tag.media {
+    background: #1AC4DB;
+  }
+  .innerPage .topTitleBox .top .tag.event {
+    background: #DF356E;
+  }
+  .innerPage .topTitleBox .top .tag.announcement {
+    background: #F3AD25;
+  }
+  .innerPage .topTitleBox .top .tag.course {
+    background: #008540;
   }
   .innerPage .topTitleBox .top .tag::before {
     display: none;

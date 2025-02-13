@@ -1374,6 +1374,22 @@ h2.title {
         background: #F3AD25;
         margin-bottom: 0;
 
+        &.media {
+          background: #1AC4DB;
+        }
+
+        &.event {
+          background: $colorPrimary;
+        }
+
+        &.announcement {
+          background: #F3AD25;
+        }
+
+        &.course {
+          background: #008540;
+        }
+
         &::before {
           display: none;
         }
