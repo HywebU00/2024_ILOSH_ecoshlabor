@@ -184,7 +184,7 @@
         flex: 0 0 auto;
 
         a {
-          font-size: 19px;
+          font-size: Rem(19);
           display: block;
           padding: 0.5em;
           text-decoration: none;
@@ -218,7 +218,7 @@
 
     .reserve {
       a {
-        font-size: 15px;
+        font-size: Rem(15);
         line-height: 1;
         display: flex;
         align-items: center;

@@ -2,7 +2,7 @@
 
 body {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: Rem(16);
   font-weight: 400;
   background-attachment: fixed;
 }
@@ -82,7 +82,7 @@ body {
       position: relative;
       color: white;
       font-weight: 400;
-      font-size: 14px;
+      font-size: Rem(14);
 
       @media screen and (max-width: 1200px) {
         width: calc(35% - 60px);
@@ -236,7 +236,7 @@ body {
     width: fit-content;
     background: linear-gradient(transparent 70%, #ff94b8 0%);
     font-weight: bold;
-    font-size: 36px;
+    font-size: Rem(36);
     line-height: 1.4;
     margin-bottom: 30px;
   }
@@ -254,7 +254,7 @@ body {
       line-height: 1;
       display: flex;
       align-items: center;
-      font-size: 24px;
+      font-size: Rem(24);
       padding: 2px 15px 0px 15px;
       margin: 0;
     }
@@ -383,7 +383,7 @@ body {
         .title {
           font-style: normal;
           font-weight: 500;
-          font-size: 24px;
+          font-size: Rem(24);
           line-height: 30px;
           margin: 0;
           transition: all 0.3s ease;
@@ -554,7 +554,7 @@ body {
       width: 70%;
       font-style: normal;
       font-weight: 500;
-      font-size: 14px;
+      font-size: Rem(14);
       line-height: 28px;
       display: flex;
       align-items: center;

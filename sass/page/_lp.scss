@@ -121,14 +121,14 @@
       line-height: 1.4;
       transition: all 0.3s ease;
       padding-top: 10px;
-      font-size: 24px;
+      font-size: Rem(24);
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
 
       @include screen('mobile') {
-        font-size: 20px;
+        font-size: Rem(20);
       }
     }
 
